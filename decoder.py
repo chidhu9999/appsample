@@ -40,14 +40,14 @@ while True:
     else:
         move = policy[i*x_size+j]
         if move == 0:
-            print('W', end='\n')
+            print('West', end='\n')
             j = j-1
         elif move == 1:
-            print('N', end='\n')
+            print('North', end='\n')
             i = i-1
         elif move == 2:
-            print('E', end='\n')
+            print('East', end='\n')
             j = j+1
         elif move == 3:
-            print('S', end='\n')
+            print('South', end='\n')
             i = i+1
